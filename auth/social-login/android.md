@@ -1,6 +1,6 @@
 ---
 title: Social Login
-description: User login in with 3rd party authentication. Facebook, Google+, Tiwtter and more. 
+description: User login with 3rd party authentication. Facebook, Google+, Twitter and more. 
 ---
 
 Coming Soon
