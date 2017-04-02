@@ -132,10 +132,10 @@ This function can be invoked from the client SDKs by the followings:
 **JS SDK**
 
 ```javascript
-const params = {
-  'to_user_email': 'foo@bar.com',
-  'custom_message': 'Hi there!',
-};
+const params = [
+  'foo@bar.com',
+  'Hi there!',
+];
 skygear.lambda('send_invitation_email', params)
   .then(response => {
     console.log(response); // {'result': 'OK'}
